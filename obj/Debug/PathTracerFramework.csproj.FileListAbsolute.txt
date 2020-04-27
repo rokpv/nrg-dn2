@@ -1,0 +1,54 @@
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/bin/Debug/PathTracer.exe.config
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/bin/Debug/PathTracer.exe
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/bin/Debug/PathTracer.pdb
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/bin/Debug/MathNet.Numerics.dll
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/bin/Debug/MathNet.Spatial.dll
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/bin/Debug/System.ValueTuple.dll
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/bin/Debug/MathNet.Numerics.xml
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/bin/Debug/MathNet.Spatial.xml
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/obj/Debug/PathTracerFramework.csprojResolveAssemblyReference.cache
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/obj/Debug/PathTracer.MainWindow.resources
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/obj/Debug/PathTracer.Properties.Resources.resources
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/obj/Debug/PathTracerFramework.csproj.GenerateResource.Cache
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/obj/Debug/PathTracerFramework.csproj.CoreCompileInputs.cache
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/obj/Debug/PathTracer.exe
+/Users/cirilbohak/git/RG2/Rendering/PathTracerFramework/obj/Debug/PathTracer.pdb
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/obj/Debug/PathTracerFramework.csprojResolveAssemblyReference.cache
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/obj/Debug/PathTracer.MainWindow.resources
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/obj/Debug/PathTracer.Properties.Resources.resources
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/obj/Debug/PathTracerFramework.csproj.GenerateResource.Cache
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/obj/Debug/PathTracer.exe
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/obj/Debug/PathTracer.pdb
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/bin/Debug/PathTracer.exe.config
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/bin/Debug/PathTracer.exe
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/bin/Debug/PathTracer.pdb
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/bin/Debug/MathNet.Numerics.dll
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/bin/Debug/MathNet.Spatial.dll
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/bin/Debug/System.ValueTuple.dll
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/bin/Debug/MathNet.Numerics.xml
+C:/Users/matic/temp/test/PathTracerFrameworkTemplate/bin/Debug/MathNet.Spatial.xml
+/Volumes/Mac-SD-Data/Documents/Faks/_Računalniška Grafika 2/2019-20/_domače naloge/2. domača naloga/PathTracerFramework/bin/Debug/PathTracer.exe.config
+/Volumes/Mac-SD-Data/Documents/Faks/_Računalniška Grafika 2/2019-20/_domače naloge/2. domača naloga/PathTracerFramework/bin/Debug/PathTracer.exe
+/Volumes/Mac-SD-Data/Documents/Faks/_Računalniška Grafika 2/2019-20/_domače naloge/2. domača naloga/PathTracerFramework/bin/Debug/PathTracer.pdb
+/Volumes/Mac-SD-Data/Documents/Faks/_Računalniška Grafika 2/2019-20/_domače naloge/2. domača naloga/PathTracerFramework/obj/Debug/PathTracerFramework.csprojAssemblyReference.cache
+/Volumes/Mac-SD-Data/Documents/Faks/_Računalniška Grafika 2/2019-20/_domače naloge/2. domača naloga/PathTracerFramework/obj/Debug/PathTracer.MainWindow.resources
+/Volumes/Mac-SD-Data/Documents/Faks/_Računalniška Grafika 2/2019-20/_domače naloge/2. domača naloga/PathTracerFramework/obj/Debug/PathTracer.Resources.resources
+/Volumes/Mac-SD-Data/Documents/Faks/_Računalniška Grafika 2/2019-20/_domače naloge/2. domača naloga/PathTracerFramework/obj/Debug/PathTracerFramework.csproj.GenerateResource.cache
+/Volumes/Mac-SD-Data/Documents/Faks/_Računalniška Grafika 2/2019-20/_domače naloge/2. domača naloga/PathTracerFramework/obj/Debug/PathTracer.exe
+/Volumes/Mac-SD-Data/Documents/Faks/_Računalniška Grafika 2/2019-20/_domače naloge/2. domača naloga/PathTracerFramework/obj/Debug/PathTracer.pdb
+F:\Users\Rok\Workspace\PathTracerFramework\obj\Debug\PathTracer.exe
+F:\Users\Rok\Workspace\PathTracerFramework\obj\Debug\PathTracer.pdb
+F:\Users\Rok\Workspace\PathTracerFramework\bin\Debug\PathTracer.exe.config
+F:\Users\Rok\Workspace\PathTracerFramework\bin\Debug\PathTracer.exe
+F:\Users\Rok\Workspace\PathTracerFramework\bin\Debug\PathTracer.pdb
+F:\Users\Rok\Workspace\PathTracerFramework\bin\Debug\MathNet.Numerics.dll
+F:\Users\Rok\Workspace\PathTracerFramework\bin\Debug\MathNet.Spatial.dll
+F:\Users\Rok\Workspace\PathTracerFramework\bin\Debug\System.ValueTuple.dll
+F:\Users\Rok\Workspace\PathTracerFramework\bin\Debug\MathNet.Numerics.xml
+F:\Users\Rok\Workspace\PathTracerFramework\bin\Debug\MathNet.Spatial.xml
+F:\Users\Rok\Workspace\PathTracerFramework\obj\Debug\PathTracerFramework.csprojAssemblyReference.cache
+F:\Users\Rok\Workspace\PathTracerFramework\obj\Debug\PathTracer.MainWindow.resources
+F:\Users\Rok\Workspace\PathTracerFramework\obj\Debug\PathTracer.Properties.Resources.resources
+F:\Users\Rok\Workspace\PathTracerFramework\obj\Debug\PathTracerFramework.csproj.GenerateResource.cache
+F:\Users\Rok\Workspace\PathTracerFramework\obj\Debug\PathTracerFramework.csproj.CoreCompileInputs.cache
+F:\Users\Rok\Workspace\PathTracerFramework\obj\Debug\PathTracerFramework.csproj.CopyComplete
