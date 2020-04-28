@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:nrg-dn2" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="942ec1ca-5561-4def-a39e-31b7dff13e7a" name="Default" comment="" />
+    <list default="true" id="942ec1ca-5561-4def-a39e-31b7dff13e7a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/MaterialsLights/SphericalLight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PathTracerFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PathTracerFramework/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PathTracerFramework/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PathTracerFramework/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PathTracerFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PathTracerFramework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterialsLights/OrenNayar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaterialsLights/OrenNayar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PathTracerFramework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PathTracerFramework.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Primitives/Sphere.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Primitives/Sphere.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/PathTracer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PathTracer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/PathTracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PathTracer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PathTracer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PathTracer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PathTracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PathTracer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PathTracerFramework.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PathTracerFramework.csproj.CoreCompileInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Sphere.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/2e/2bad56aa/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PathTracer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,11 +60,14 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/1a/bb55c865/Parallel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Helpers/Vector3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Helpers/Transform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MaterialsLights/SphericalLight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Sphere.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Primitives/Quad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Primitives/Sphere.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Primitives/Shape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MaterialsLights/OrenNayar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Primitives/Ray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Sphere.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Primitives/Disk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Primitives/SurfaceInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Primitives/Spectrum.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,13 +90,17 @@
         <option value="$PROJECT_DIR$/Primitives/Quad.cs" />
         <option value="$PROJECT_DIR$/Primitives/SurfaceInteraction.cs" />
         <option value="$PROJECT_DIR$/Helpers/Samplers.cs" />
-        <option value="$PROJECT_DIR$/Primitives/Sphere.cs" />
         <option value="$PROJECT_DIR$/PathTracer.cs" />
+        <option value="$PROJECT_DIR$/MaterialsLights/Lambertian.cs" />
         <option value="$PROJECT_DIR$/MaterialsLights/OrenNayar.cs" />
+        <option value="$PROJECT_DIR$/MaterialsLights/Light.cs" />
+        <option value="$PROJECT_DIR$/MaterialsLights/SphericalLight.cs" />
+        <option value="$PROJECT_DIR$/Primitives/Sphere.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1aX6EeonYjcFAb7QvPOhGuVe5fm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,7 +115,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
@@ -129,7 +171,8 @@
       <workItem from="1587912536093" duration="1452000" />
       <workItem from="1587922581820" duration="843000" />
       <workItem from="1587924832643" duration="629000" />
-      <workItem from="1587995012960" duration="1251000" />
+      <workItem from="1587995012960" duration="7750000" />
+      <workItem from="1588079426378" duration="2351000" />
     </task>
     <servers />
   </component>
@@ -138,26 +181,38 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="916" height="276" key="GridCell.Tab.0.bottom" timestamp="1587923470496">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1588096452073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587923470496" />
-    <state width="916" height="276" key="GridCell.Tab.0.center" timestamp="1587923470496">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588096452073" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1588096452073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587923470496" />
-    <state width="916" height="276" key="GridCell.Tab.0.left" timestamp="1587923470496">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588096452073" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1588096452073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587923470496" />
-    <state width="916" height="276" key="GridCell.Tab.0.right" timestamp="1587923470496">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588096452073" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1588096452073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587923470496" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588096452073" />
     <state width="1877" height="245" key="GridCell.Tab.1.bottom" timestamp="1587827079376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -222,22 +277,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="245" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587827079377" />
-    <state x="279" y="240" key="RiderGenerateDialog" timestamp="1587996066020">
+    <state x="279" y="240" key="RiderGenerateDialog" timestamp="1588005671849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="279" y="240" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587996066020" />
-    <state x="0" y="168" key="SettingsEditor" timestamp="1587479862018">
+    <state x="279" y="240" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588005671849" />
+    <state x="0" y="168" key="SettingsEditor" timestamp="1587997951058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587479862018" />
+    <state x="0" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587997951058" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588096599218">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588096599218" />
     <state x="154" y="122" width="651" height="795" key="find.popup" timestamp="1587826566060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="154" y="122" width="651" height="795" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587826566060" />
-    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587482320194">
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588005463395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587482320194" />
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588005463395" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
