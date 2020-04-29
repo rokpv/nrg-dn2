@@ -8,7 +8,7 @@ namespace PathTracer
         private double a;
         private double b;
 
-        private static double Fi(double x, double y)
+        private static double Phi(double x, double y)
         {
             return Math.Atan(y / x);
         }
@@ -28,15 +28,15 @@ namespace PathTracer
 
         public override Spectrum f(Vector3 wo, Vector3 wi)
         {
-            var fiWi = Fi(wi.x, wi.y);
-            var fiWo = Fi(wo.x, wo.y);
+            var phiWi = Phi(wi.x, wi.y);
+            var phiWo = Phi(wo.x, wo.y);
             var thetaWi = Theta(wi.x, wi.y, wi.z);
             var thetaWo = Theta(wo.x, wo.y, wo.z);
             
             var alpha = Math.Max(thetaWi, thetaWo);
             var beta = Math.Min(thetaWi, thetaWo);
 
-            return kd * Utils.PiInv * (a + b * Math.Max(0, Math.Cos(fiWi - fiWo))) * Math.Sin(alpha) * Math.Sin(beta);
+            return kd * Utils.PiInv * (a + b * Math.Max(0, Math.Cos(phiWi - phiWo))) * Math.Sin(alpha) * Math.Sin(beta);
         }
 
         public override (Spectrum, Vector3, double) Sample_f(Vector3 wo)

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Security.Permissions;
 using MathNet.Numerics.Integration;
 
@@ -6,9 +7,20 @@ namespace PathTracer
 {
   class Sphere : Shape
   {
-    public double Radius { get; set; }
-    public Sphere(double radius, Transform objectToWorld)
+    private bool innerOrientation = false;
+    
+    private static Vector3 Dpdu(Vector3 point)
     {
+      var phi = Math.Atan2(point.y, point.x);
+      if (phi < 0) phi += 2 * Math.PI;
+
+      return new Vector3(-phi * point.y, phi * point.x, 0);
+    }
+
+    public double Radius { get; set; }
+    public Sphere(double radius, Transform objectToWorld, bool innerOrientation = false)
+    {
+      this.innerOrientation = innerOrientation;
       Radius = radius;
       ObjectToWorld = objectToWorld;
     }
@@ -42,12 +54,10 @@ namespace PathTracer
         hit.x = 1e-5 * Radius;
       }
 
-      var phi = Math.Atan2(hit.y, hit.x);
-      if (phi < 0) phi += 2 * Math.PI;
+      var dpdu = Dpdu(hit);
+      var normal = innerOrientation ? -hit : hit;
 
-      var dpdu = new Vector3(-phi * hit.y, phi * hit.x, 0);
-
-      var interaction = new SurfaceInteraction(hit, hit, -ray.d, dpdu, this);
+      var interaction = new SurfaceInteraction(hit, normal, -ray.d, dpdu, this);
       return (shapeHit, ObjectToWorld.Apply(interaction));
     }
 
@@ -57,9 +67,17 @@ namespace PathTracer
       var center = new Vector3(0, 0, 0);
       var point = center + Radius * Samplers.UniformSampleSphere();
 
-      var normal = ObjectToWorld.ApplyPoint(point).Normalize();
+      var normal = point.Normalize();
+      if (innerOrientation)
+      {
+        normal = -normal;
+      }
+
       point *= Radius / (center - point).Length();
-      return (new SurfaceInteraction(point, normal, normal, normal, this), 0);
+      var wo = point;
+      var dpdu = Dpdu(point);
+      var interaction = new SurfaceInteraction(point, normal, wo, dpdu, this);
+      return (ObjectToWorld.Apply(interaction), Pdf(interaction, point));
     }
 
     public override double Area() { return 4 * Math.PI * Radius * Radius; }
