@@ -13,7 +13,8 @@ namespace PathTracer
     {
       var L = Spectrum.ZeroSpectrum;
       var beta = Spectrum.Create(1f);
-
+      var specularReflection = false;
+      
       for (int bounces = 0; bounces <= 20; ++bounces)
       {
         var (d, intersection) = scene.Intersect(ray);
@@ -23,7 +24,7 @@ namespace PathTracer
         var wo = -ray.d;
         if (intersection.Obj is Light)
         {
-          if (bounces == 0)
+          if (bounces == 0 || specularReflection)
           {
             L.AddTo(beta * intersection.Le(wo));
           }
@@ -35,6 +36,7 @@ namespace PathTracer
         if (intersection.Obj is Shape objectHit)
         {
           var (f, wi, pdf, isSpecular) = objectHit.BSDF.Sample_f(wo, intersection);
+          specularReflection = isSpecular;
 
           if (f.IsBlack() || Math.Abs(pdf) < double.Epsilon) break;
 

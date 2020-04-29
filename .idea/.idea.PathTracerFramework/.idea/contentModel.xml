@@ -24,6 +24,7 @@
         <e p="Light.cs" t="Include" />
         <e p="OrenNayar.cs" t="Include" />
         <e p="SpecularReflection.cs" t="Include" />
+        <e p="SpecularTransmission.cs" t="Include" />
         <e p="SphericalLight.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />

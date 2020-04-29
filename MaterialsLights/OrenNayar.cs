@@ -28,15 +28,40 @@ namespace PathTracer
 
         public override Spectrum f(Vector3 wo, Vector3 wi)
         {
-            var phiWi = Phi(wi.x, wi.y);
-            var phiWo = Phi(wo.x, wo.y);
-            var thetaWi = Theta(wi.x, wi.y, wi.z);
-            var thetaWo = Theta(wo.x, wo.y, wo.z);
+            // var phiWi = Phi(wi.x, wi.y);
+            // var phiWo = Phi(wo.x, wo.y);
+            // var thetaWi = Theta(wi.x, wi.y, wi.z);
+            // var thetaWo = Theta(wo.x, wo.y, wo.z);
+            //
+            // var alpha = Math.Max(thetaWi, thetaWo);
+            // var beta = Math.Min(thetaWi, thetaWo);
+            //
+            // return kd * Utils.PiInv * (a + b * Math.Max(0, Math.Cos(phiWi - phiWo))) * Math.Sin(alpha) * Math.Tan(beta);
             
-            var alpha = Math.Max(thetaWi, thetaWo);
-            var beta = Math.Min(thetaWi, thetaWo);
+            var sinThetaI = Utils.SinTheta(wi);
+            var sinThetaO = Utils.SinTheta(wo);
+            var maxCos = 0.0;
+            if (sinThetaI > 1e-4 && sinThetaO > 1e-4)
+            {
+                var sinPhiI = Utils.SinPhi(wi);
+                var cosPhiI = Utils.CosPhi(wi);
+                var sinPhiO = Utils.SinPhi(wo);
+                var cosPhiO = Utils.CosPhi(wo);
+                var dCos = cosPhiI * cosPhiO + sinPhiI * sinPhiO;
+                maxCos = Math.Max(0, dCos);
+            }
 
-            return kd * Utils.PiInv * (a + b * Math.Max(0, Math.Cos(phiWi - phiWo))) * Math.Sin(alpha) * Math.Tan(beta);
+            double sinAlpha;
+            double tanBeta;
+            if (Utils.AbsCosTheta(wi) > Utils.AbsCosTheta(wo)) {
+                sinAlpha = sinThetaO;
+                tanBeta = sinThetaI / Utils.AbsCosTheta(wi);
+            } else {
+                sinAlpha = sinThetaI;
+                tanBeta = sinThetaO / Utils.AbsCosTheta(wo);
+            }
+
+            return kd * Utils.PiInv * (a + b * maxCos * sinAlpha * tanBeta);
         }
 
         public override (Spectrum, Vector3, double) Sample_f(Vector3 wo)

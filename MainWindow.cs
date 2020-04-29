@@ -57,10 +57,11 @@ namespace PathTracer
 
       tokenSource = new CancellationTokenSource();
 
-      // Scene s = Scene.CornellBox();
+      Scene s = Scene.CornellBox();
       // Scene s = Scene.SphereLightOuter();
       // Scene s = Scene.SphereLightInner();
-      Scene s = Scene.OrenNayar();
+      // Scene s = Scene.OrenNayar();
+      // Scene s = Scene.OrenNayar2();
 
       bmp = new Bitmap(bitmapWidth, (int)Math.Round(bitmapWidth / s.AspectRatio), PixelFormat.Format24bppRgb);
       pbxRender.Image = bmp;
