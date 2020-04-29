@@ -135,6 +135,11 @@ namespace PathTracer
       el = new Quad(556.0, 559.2, Transform.Translate(556.0 / 2, 0, 559.2 / 2).A(Transform.RotateX(-90)));
       el.BSDF.Add(new Lambertian(Spectrum.ZeroSpectrum.FromRGB(Color.White)));
       s.Elements.Add(el);
+      
+      // celing
+      el = new Quad(556.0, 559.2, Transform.Translate(556.0 / 2, 548.8, 559.2 / 2).A(Transform.RotateX(90)));
+      el.BSDF.Add(new Lambertian(Spectrum.ZeroSpectrum.FromRGB(Color.White)));
+      s.Elements.Add(el);
 
       // back
       el = new Quad(556.0, 548.8, Transform.Translate(556.0/2, 548.8/2, 559.2).A(Transform.RotateX(180)));
@@ -151,7 +156,7 @@ namespace PathTracer
       el.BSDF.Add(new Lambertian(Spectrum.ZeroSpectrum.FromRGB(Color.Red)));
       s.Elements.Add(el);
       
-      var sphericalLight = new SphericalLight(50, Transform.Translate(278, 150, 280), Spectrum.Create(1f), false, 20);
+      var sphericalLight = new SphericalLight(50, Transform.Translate(278, 150, 280), Spectrum.Create(1f), false, 15);
       s.Elements.Add(sphericalLight);
       
       el = new Sphere(100, Transform.Translate(150, 100, 420));
@@ -249,7 +254,7 @@ namespace PathTracer
       s.Elements.Add(new DiffuseAreaLight(new Disk(80, 0.1, Transform.Translate(278, 548, 280).A(Transform.RotateX(90))), Spectrum.Create(1), 20));
       
       el = new Sphere(100, Transform.Translate(150, 100, 420));
-      el.BSDF.Add(new OrenNayar(Spectrum.ZeroSpectrum.FromRGB(Color.Blue), 0.5 * Math.PI));
+      el.BSDF.Add(new OrenNayar(Spectrum.ZeroSpectrum.FromRGB(Color.Blue), 0.349066));
       s.Elements.Add(el);
 
       el = new Sphere(100, Transform.Translate(400, 100, 230));

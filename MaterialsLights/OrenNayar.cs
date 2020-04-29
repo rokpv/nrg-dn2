@@ -22,7 +22,7 @@ namespace PathTracer
         {
             this.kd = kd;
             var roughnessSq = roughness * roughness;
-            a = 1 - roughnessSq / 2 * (roughnessSq + 0.33);
+            a = 1 - roughnessSq / (2 * (roughnessSq + 0.33));
             b = 0.45 * roughnessSq / (roughnessSq + 0.09);
         }
 
@@ -36,7 +36,7 @@ namespace PathTracer
             var alpha = Math.Max(thetaWi, thetaWo);
             var beta = Math.Min(thetaWi, thetaWo);
 
-            return kd * Utils.PiInv * (a + b * Math.Max(0, Math.Cos(phiWi - phiWo))) * Math.Sin(alpha) * Math.Sin(beta);
+            return kd * Utils.PiInv * (a + b * Math.Max(0, Math.Cos(phiWi - phiWo))) * Math.Sin(alpha) * Math.Tan(beta);
         }
 
         public override (Spectrum, Vector3, double) Sample_f(Vector3 wo)
